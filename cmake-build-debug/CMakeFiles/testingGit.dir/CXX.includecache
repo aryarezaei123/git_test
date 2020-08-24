@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Administrator/CLionProjects/testingGit/Complex.cpp
+Complex.h
+C:/Users/Administrator/CLionProjects/testingGit/Complex.h
+string
+-
+
+C:/Users/Administrator/CLionProjects/testingGit/Complex.h
+string
+-
+
 C:/Users/Administrator/CLionProjects/testingGit/main.cpp
 iostream
 -
+Complex.h
+C:/Users/Administrator/CLionProjects/testingGit/Complex.h
 

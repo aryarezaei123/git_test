@@ -73,12 +73,12 @@ clean: CMakeFiles/testingGit.dir/clean
 CMakeFiles/testingGit.dir/all:
 	$(MAKE) -f CMakeFiles\testingGit.dir\build.make CMakeFiles/testingGit.dir/depend
 	$(MAKE) -f CMakeFiles\testingGit.dir\build.make CMakeFiles/testingGit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\CLionProjects\testingGit\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target testingGit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\CLionProjects\testingGit\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target testingGit"
 .PHONY : CMakeFiles/testingGit.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testingGit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\CLionProjects\testingGit\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\CLionProjects\testingGit\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/testingGit.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\CLionProjects\testingGit\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/testingGit.dir/rule

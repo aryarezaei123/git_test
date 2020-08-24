@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/testingGit.dir/Complex.cpp.obj"
   "CMakeFiles/testingGit.dir/main.cpp.obj"
   "libtestingGit.dll.a"
   "testingGit.exe"

@@ -122,6 +122,33 @@ testingGit/fast:
 	$(MAKE) -f CMakeFiles\testingGit.dir\build.make CMakeFiles/testingGit.dir/build
 .PHONY : testingGit/fast
 
+Complex.obj: Complex.cpp.obj
+
+.PHONY : Complex.obj
+
+# target to build an object file
+Complex.cpp.obj:
+	$(MAKE) -f CMakeFiles\testingGit.dir\build.make CMakeFiles/testingGit.dir/Complex.cpp.obj
+.PHONY : Complex.cpp.obj
+
+Complex.i: Complex.cpp.i
+
+.PHONY : Complex.i
+
+# target to preprocess a source file
+Complex.cpp.i:
+	$(MAKE) -f CMakeFiles\testingGit.dir\build.make CMakeFiles/testingGit.dir/Complex.cpp.i
+.PHONY : Complex.cpp.i
+
+Complex.s: Complex.cpp.s
+
+.PHONY : Complex.s
+
+# target to generate assembly for a file
+Complex.cpp.s:
+	$(MAKE) -f CMakeFiles\testingGit.dir\build.make CMakeFiles/testingGit.dir/Complex.cpp.s
+.PHONY : Complex.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... testingGit
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Complex.obj
+	@echo ... Complex.i
+	@echo ... Complex.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

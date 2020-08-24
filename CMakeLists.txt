@@ -3,4 +3,4 @@ project(testingGit)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(testingGit main.cpp)
+add_executable(testingGit main.cpp Complex.cpp Complex.h)

@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Administrator/CLionProjects/testingGit/Complex.cpp">
+			<Option target="testingGit"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/testingGit/Complex.h">
+			<Option target="testingGit"/>
+		</Unit>
 		<Unit filename="C:/Users/Administrator/CLionProjects/testingGit/main.cpp">
 			<Option target="testingGit"/>
 		</Unit>
