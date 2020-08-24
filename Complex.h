@@ -5,11 +5,13 @@
 #ifndef TESTINGGIT_COMPLEX_H
 #define TESTINGGIT_COMPLEX_H
 
-#include <string>
+#include "string"
+#include<iostream>
 
 
 class Complex {
 private:
+    friend std::ostream& operator<<(std::ostream& output, Complex comp);
     double real, img;
 public:
     Complex(double r = 0, double i = 0);
