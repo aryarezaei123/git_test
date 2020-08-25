@@ -12,6 +12,7 @@
 class Complex {
 private:
     friend std::ostream& operator<<(std::ostream& output, Complex comp);
+    friend Complex operator+(Complex comp1, Complex comp2);
     double real, img;
 public:
     Complex(double r = 0, double i = 0);

@@ -29,3 +29,9 @@ std::ostream& operator<<(std::ostream& output, Complex comp){
     return output;
 }
 
+Complex operator+(Complex comp1, Complex comp2){
+    Complex temp;
+    temp.real = comp1.real + comp2.real;
+    temp.img = comp1.img + comp2.img;
+    return temp;
+}
